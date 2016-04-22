@@ -2,17 +2,17 @@
  *= require_tree .
  *= require_self
  */
-//= depend_on_asset "recipe_image.jpeg"
 
- .cant-see-me {
+
+.cant-see-me {
    display: none;
  }
 
- .container {
+.container {
     background: rgba(255, 255, 255, 0.7);
   }
 
-  body {
-  background-image:url(("recipe_image.jpeg") no-repeat;
+body {
+  background: image-url("recipe_image.jpeg") no-repeat;
   background-size: cover;
 }
