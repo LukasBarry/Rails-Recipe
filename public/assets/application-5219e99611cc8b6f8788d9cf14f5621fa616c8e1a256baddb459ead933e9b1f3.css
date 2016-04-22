@@ -1,0 +1,18 @@
+/*
+
+
+ */
+
+
+ .cant-see-me {
+   display: none;
+ }
+
+ .container {
+    background: rgba(255, 255, 255, 0.7);
+  }
+
+  body {
+  background: image-url("recipe_image.jpeg") no-repeat;
+  background-size: cover;
+}
