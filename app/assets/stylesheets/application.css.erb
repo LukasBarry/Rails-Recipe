@@ -2,6 +2,7 @@
  *= require_tree .
  *= require_self
  */
+//= depend_on_asset "recipe_image.jpeg"
 
  .cant-see-me {
    display: none;
@@ -12,6 +13,6 @@
   }
 
   body {
-  background: image-url("recipe_image.jpeg") no-repeat;
+  background-image:url('<%= asset_path("recipe_image.jpeg") %> ') no-repeat;
   background-size: cover;
 }
