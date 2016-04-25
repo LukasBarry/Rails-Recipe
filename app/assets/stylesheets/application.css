@@ -13,6 +13,5 @@
   }
 
 body {
-  background: image-url("recipe_image.jpeg") no-repeat;
-  background-size: cover;
+  background-color: #32936F
 }
